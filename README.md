@@ -26,33 +26,45 @@ As a developer, it can be difficult to stay on top of everything happening in th
 - 💻 Customizable by language or topic
 - 👍 Curated content from the best sources
 - 🔖 Bookmark and read it later
-- 🌙 Dark mode for when it gets late 
+- 🌙 Dark mode for when it gets late
+- 🌞 To attract bugs
+- 🔎 Search for anything
 Even more features are going to come in the future!
 
 ## Data sources
 - Github Trendings
 - Hackernews
 - DevTo
-- Hashnode
+- [Hashnode](https://hashnode.com/)
 - Lobsters
 - Confs.tech
 - Product Hunt
 - Reddit
 - Freecodecamp
-- Medium
+- [Medium](https://medium.com/)
 - Indiehackers
 - **or create an issue to ask for a new data source**
 
 ## Support
 Please do not hesitate to ask a question, report a bug or add a suggestion. or send an email to hello@hackertab.dev
 
-## Development
+## Development (if using yarn)
 Please use the develop branch
 ```bash
 $ git clone --branch develop git@github.com:medyo/hackertab.dev.git
 $ cd hackertab.dev
 $ yarn
 $ yarn start
+$ # Then visit http://localhost:3000
+```
+
+## Development (if using npm)
+Please use the develop branch
+```bash
+$ git clone --branch develop git@github.com:medyo/hackertab.dev.git
+$ cd hackertab.dev
+$ npm
+$ npm start
 $ # Then visit http://localhost:3000
 ```
 
